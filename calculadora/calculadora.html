@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="pantalla"></div>
+        <div class="botones">
+            <div class="numeros">
+                <button class="uno" onclick="insertar(1)">1</button>
+                <button class="dos" onclick="insertar(2)">2</button>
+                <button class="tres" onclick="insertar(3)">3</button>
+                <button class="cuatro" onclick="insertar(4)">4</button>
+                <button class="cinco" onclick="insertar(5)">5</button>
+                <button class="seis" onclick="insertar(6)">6</button>
+                <button class="siete" onclick="insertar(7)">7</button>
+                <button class="ocho" onclick="insertar(8)">8</button>
+                <button class="nueve" onclick="insertar(9)">9</button>
+                <button class="cero" onclick="insertar(0)">0</button>
+                <button class="punto" onclick="insertar('.')">.</button>
+            </div>
+            <div class="funciones">
+                <button class="suma" onclick="insertar('+')">+</button>
+                <button class="menos" onclick="insertar('-')">-</button>
+                <button class="mult" onclick="insertar('*')">*</button>
+                <button class="divi" onclick="insertar('/')">/</button>
+                <button class="igual" onclick="resultado()">=</button>
+                <button class="borrar" onclick="borrar()">AC</button>
+                <button class="borrarUno" onclick="borrarUno()"><</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

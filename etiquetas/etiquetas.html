@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas</title>
+</head>
+<body>
+    <h1>Lista de elementos de HTML (HTML5)</h1>
+    <p>
+        En un documento de HTML existen 2 tipos de etiquetas 
+        que contienen fragmentos de texto (se utlizan para dar significado a 
+        esas palabras o fragmentos) y las etiquetasque agrupan un conjuto de informacion 
+        (fragmentos de texto y/o otras etiquetas)
+    </p>
+    <p>
+        Los elementos de HTML tienen atributos. Estos son valores adicionales que configuren los elementos o 
+        ajustan su comportamiento de diversas formas para cumplir los criterios de los usarios o 
+        de la persona que desarrolla.
+    </p>
+    <p>
+        Existen 8 secciones, donde  agruparemos las etiquetas que usemos a lo largo del curso
+    </p>
+    <b>Elementos raiz</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< !DOCTYPE html ></td>
+            <td>Es la declaracion del tipo de archivo en el que estamos trabajando, en este caso de hipertexto</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< html ></td>
+            <td>Es la raiz del documento, es la etiqueta padre de todos los elementos</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+    </table>
+    <b>Metadatos de documento</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< head ></td>
+            <td>Representa los metadatos del documento incluyendo los elementos internos.</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< title ></td>
+            <td>
+                Define el titulo del documento, que aparece en el barra de navegador, solo puede
+                solo puede contener texto.
+            </td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< link ></td>
+            <td>Usada para enlazar archivos externos de JavaScript y Css</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< meta ></td>
+            <td>Define los metadatos que no puede ser definidos con alguna etiqueta</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< style ></style></td>
+            <td>Se usa, como su nombre lo dice, para los estilos de la misma hoja de HTML.</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+    </table>
+    <b>Scriptings</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< script ></script></td>
+            <td>Define una script interno o un enlcae externo del mismo archivo</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+    </table>
+    <b>Secciones</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< body ></td>
+            <td>Representa el documento principal de un documento HTML</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< seccion ></td>
+            <td>Define una seccion del documento (HTML5)</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< nav ></td>
+            <td>Es una seccion que debera contener elementos de navegacion</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< articule ></td>
+            <td>
+                Contiene informacion que puede existir de manera independiente con la informacion
+                del resto de la pagina
+            </td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< head ></td>
+            <td>
+                Define la cabecera de una pagina web o seccion. Usualmente contiene logotipo, titulos,
+                tabla de navegación (HTML5) 
+            </td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td>< footer ></td>
+            <td>Define el pie de pagina o seccion (HTML5)</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Las etiquetas de texto estan organizados de manera jerarquica, 
+                empezando desde la etiqueta < h1 > hasta la etiqueta < h6 >
+            </td>
+            <td>
+                <ul>
+                    <li><h1>H1</h1></li>
+                    <li><h2>H2</h2></li>
+                    <li><h3>H3</h3></li>
+                    <li><h4>H4</h4></li>
+                    <li><h5>H5</h5></li>
+                    <li><h6>H6</h6></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <b>Argumentos de contenido</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< p ></td>
+            <td>Define que el texto debe mostrarse como un parrafo</td>
+            <td><p>Esto es un parrafo</p></td>
+        </tr>
+        <tr>
+            <td>< hr ></td>
+            <td>Representa el quiebre entre el parrafo</td>
+            <td><p>Esto es un parrafo</p><hr><p>Este es otro parrafo</p></td>
+        </tr>
+        <tr>
+            <td>< ol ></td>
+            <td>Define una lista con orden</td>
+            <td rowspan="3">
+                <ol>
+                    <li>Lista1</li>
+                    <li>Lista2</li>
+                    <li>Lista3</li>
+                </ol>
+                <hr>
+                <ul>
+                    <li>Lista1</li>
+                    <li>Lista2</li>
+                    <li>Lista3</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>< ul ></td>
+            <td>Define una lista sin orden</td>
+        </tr>
+        <tr>
+            <td>< li ></td>
+            <td>Define un articulo de una lista enumerado</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< figcaption ></td>
+            <td>Representa una leyenda de una figura (HTML5)</td>
+            <td><img src="owl.jpg" alt=""><figcaption>Esto es una leyenda</figcaption></td>
+        </tr>
+        <tr>
+            <td>< div ></td>
+            <td>Es un contenedor generico sin ningun significado</td>
+            <td>--------Sin Ejemplo--------</td>
+        </tr>
+    </table>
+    <b>Semantica a nivel de texto</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< a ></td>
+            <td>Representa un hiperenlace, enlazando a otro recurso interno o extremo</td>
+            <td><a href="">Esto es un hiperenlace</a></td>
+        </tr>
+        <tr>
+            <td>< i ></td>
+            <td>Es la etiqueta de cursiva</td>
+            <td><i>Esto es cursiva</i></td>
+        </tr>
+        <tr>
+            <td>< b ></td>
+            <td>Es la etiqueta de negritas</td>
+            <td><b>Esto es la negrita</b></td>
+        </tr>
+        <tr>
+            <td>< u ></td>
+            <td>Es el texto subrayado</td>
+            <td><u>Esto es texto subrayado</u></td>
+        </tr>
+        <tr>
+            <td>< br ></td>
+            <td>Significa un cambio de linea</td>
+            <td><p>Parrafo 1</p> <br> <p>Parrafo 2</p></td>
+        </tr>
+    </table>
+    <b>Contenido incrustado</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< img ></td>
+            <td>Representa un archivo imagen</td>
+            <td><img src="" alt=""></td>
+        </tr>
+        <tr>
+            <td>< video ></td>
+            <td>Representa un archivo video (HTML5)</td>
+            <td><video src=""></video></td>
+        </tr>
+        <tr>
+            <td>< audio ></td>
+            <td>Representa que archivo de sonido o stream de audio (HTML5)</td>
+            <td><audio src=""></audio></td>
+        </tr>
+    </table>
+    <b>Datos tabuladores</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< table ></td>
+            <td>Son los datos que podemos visualizar en mas de una dimension</td>
+            <td rowspan="7">
+                <table border="1">
+                    <tr style="background-color: blue;">
+                        <th>Encabezado1</th>
+                        <th>Encabezado2</th>
+                    </tr>
+                    <tr style="background-color: green;">
+                        <td>Celda1</td>
+                        <td>Celda2</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: red;">Celda3</td>
+                        <td>Celda4</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>< tbody ></td>
+            <td>Es el bloque de datos que contiene el cuerpo de la tabla</td>
+        </tr>
+        <tr>
+            <td>< thead ></td>
+            <td>Es el bloque de datos que contiene la cabecera de la tabla o etiquetas</td>
+        </tr>
+        <tr>
+            <td>< tfoot ></td>
+            <td>Es el bloque de datos que contiene el pie de la tabla</td>
+        </tr>
+        <tr>
+            <td>< tr ></td>
+            <td>Representa una fila de celdas en una tabla (verde)</td>
+        </tr>
+        <tr>
+            <td>< td ></td>
+            <td>Representa una celda de datos en una tabla (rojo)</td>
+        </tr>
+        <tr>
+            <td>< th ></td>
+            <td>Representa una celda de encabezado de una tabla (azul)</td>
+        </tr>
+    </table>
+    <b>Formularios</b>
+    <table border="1">
+        <tr>
+            <td>Etiquetas</td>
+            <td>Definicion</td>
+            <td>Ejemplo</td>
+        </tr>
+        <tr>
+            <td>< form ></td>
+            <td>
+                Es el formulario que contiene controles que pueden ser enviados a un 
+                servidor para su procesamiento.
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>< label ></label></td>
+            <td>Es el título de control del formulario (nombre del campo)</td>
+            <td colspan="2"><label for="">Esto es un label</label><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>< input ></td>
+            <td>Son los campos de datos que permiten interactuar con el usuario.</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>Tipo de input</td>
+                        <td>Detalles del input</td>
+                        <td>Ejemplo</td>
+                    </tr>
+                    <tr>
+                        <td>button</td>
+                        <td>Boton sin comportamiento en especifico</td>
+                        <td><input type="button" name="" value="hola"></td>
+                    </tr>
+                    <tr>
+                        <td>checkbox</td>
+                        <td>Casilla de seleccion</td>
+                        <td><input type="checkbox" name=""></td>
+                    </tr>
+                    <tr>
+                        <td>color</td>
+                        <td>Interfaz de color</td>
+                        <td><input type="color" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>date</td>
+                        <td>Se puede introducir una fecha</td>
+                        <td><input type="date" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>datetime</td>
+                        <td>Se puede introducir una fecha y una hora</td>
+                        <td><input type="datetime" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>email</td>
+                        <td>Acepta el formato de correo electronico</td>
+                        <td><input type="email" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>file</td>
+                        <td>Permite que el usuario seleccione un archivo de su computadora</td>
+                        <td><input type="file" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>number</td>
+                        <td>Capaz de soportar un numero con punto flotante</td>
+                        <td><input type="number" name="" placeholder="Ingresa tu edad"></td>
+                    </tr>
+                    <tr>
+                        <td>password</td>
+                        <td>Campo con texto invisible</td>
+                        <td><input type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>radio</td>
+                        <td>Boton de tipo radio</td>
+                        <td><input type="radio" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>submit</td>
+                        <td>Boton para enviar el formulario</td>
+                        <td><input type="submit" value="submit"></td>
+                    </tr>
+                    <tr>
+                        <td>text</td>
+                        <td>Campo de texto predeterminado</td>
+                        <td><input type="text" name="" placeholder="Ingresa tu nombre"></td>
+                    </tr>
+                    <tr>
+                        <td>reset</td>
+                        <td>Elimina el texto de los campos del formulario</td>
+                        <td><input type="reset" value="reset"></td>
+                    </tr>
+                    <tr>
+                        <td>search</td>
+                        <td>Se pueden introducir campos de texto para busquedas</td>
+                        <td><input type="search" name="" id=""></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>< button ></button></td>
+            <td>Representa un boton que ejecutara un evento</td>
+            <td><button>boton</button></td>
+        </tr>
+        <tr>
+            <td>< select ></select></td>
+            <td>Representa un control que permite la seleccion entre un conjunto de opciones</td>
+            <td rowspan="2">
+                <select name="" id="">
+                    <option>Ejemplo1</option>
+                    <option>Ejemplo2</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>< option ></option></td>
+            <td>Es el elemnto de la etiqueta que compone a un selector</td>
+        </tr>
+        <tr>
+            <td>< textarea ></textarea></td>
+            <td>Es un control de edicion de texto</td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+    </table>
+</body>
+</html>
